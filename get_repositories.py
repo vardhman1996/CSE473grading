@@ -15,7 +15,6 @@ def copy_files_for_mos(file_paths):
         shutil.copy2(file_path, folder_path)
     return None
 
-
 def find_files(folderpath, file_name):
     file_paths = []
     for dirpath, dirnames, filenames in os.walk(folderpath):
@@ -44,5 +43,6 @@ def mkdir(foldername):
     os.makedirs(foldername)
     return True
 
+# clone_repositories()
 file_paths = find_files("./gitrepos", "search.py")
 copy_files_for_mos(file_paths)
