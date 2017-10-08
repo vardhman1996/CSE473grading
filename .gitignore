@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 gitrepos/
+mos_github_folder/
 
 # C extensions
 *.so
